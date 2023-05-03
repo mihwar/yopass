@@ -1,5 +1,12 @@
 [build]
   base    = "website"
+  
+[[redirects]]
+  from = "*"
+  to = "*"
+  force = false
+  status = 200
+      
 [[headers]]
   for = "/*"
   [headers.values]
