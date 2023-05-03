@@ -1,7 +1,14 @@
 [build]
   base    = "website"
   
+[[redirects]]
+  from = "/*"
+  to = "https://s3zvjobipg.execute-api.eu-west-1.amazonaws.com/yopass/%7Bproxy+%7D/secret"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+  
 [[headers]]
-   for = "/*"
-   [headers.values]
-      Access-Control-Allow-Origin = "*"
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
