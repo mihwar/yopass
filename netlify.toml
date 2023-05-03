@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://s3zvjobipg.execute-api.eu-west-1.amazonaws.com/yopass/{proxy+}"
+  to = "*"
   status = 200
 
 [[headers]]
