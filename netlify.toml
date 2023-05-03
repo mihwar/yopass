@@ -2,8 +2,8 @@
   base    = "website"
   
 [[redirects]]
-  from = "*"
-  to = "*"
+  from = "https://myyopass.netlify.app/*"
+  to = "http://s3zvjobipg.execute-api.eu-west-1.amazonaws.com/*"
   force = false
   status = 200
       
